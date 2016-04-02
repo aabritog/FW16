@@ -1,0 +1,11 @@
+/*
+ VERY IMPORTANT!!! 
+ - always use .screen-container before each style definitions 
+   in order to encapsulate styles and prevent inappropriate behaviors
+*/
+
+.screen-container {float:left; width: 100%;margin-top:30px;}
+.screen-container #title {float: left;width:100%;font-weight: bold;display: none;margin: 5px 0;font-size: 18px;}
+.screen-container #a1 {float:left; width: 100%;display: none;}
+.screen-container #a2 {float:left; width: 100%;display: none;}
+.screen-container a.message {float:left; display: none;}
